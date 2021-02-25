@@ -1,72 +1,42 @@
 {
-  "_from": "@commitlint/config-conventional",
-  "_id": "@commitlint/config-conventional@12.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-zjTeCBlHEP0syW6QedRSxOiafYeuOol9vIXZ89uhKMhyejaKxdAnS3SBMN4fYiSFChsZEl+VshJeZDtUFkCd7Q==",
-  "_location": "/@commitlint/config-conventional",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "@commitlint/config-conventional",
-    "name": "@commitlint/config-conventional",
-    "escapedName": "@commitlint%2fconfig-conventional",
-    "scope": "@commitlint",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-12.0.0.tgz",
-  "_shasum": "3244957b87b92dc2f4feb46059cdeb950783198f",
-  "_spec": "@commitlint/config-conventional",
-  "_where": "/home/picq/projects/mindbest/github/picq/automation-playground",
-  "author": {
-    "name": "Mario Nebl",
-    "email": "hello@herebecode.com"
-  },
-  "bugs": {
-    "url": "https://github.com/conventional-changelog/commitlint/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "conventional-changelog-conventionalcommits": "^4.3.1"
-  },
-  "deprecated": false,
+  "name": "picq/config-conventional",
+  "version": "12.0.1",
   "description": "Shareable commitlint config enforcing conventional commits",
-  "devDependencies": {
-    "@commitlint/lint": "^12.0.0",
-    "@commitlint/utils": "^12.0.0"
-  },
-  "engines": {
-    "node": ">=v10"
-  },
   "files": [
     "index.js"
   ],
-  "gitHead": "d829bf6260304ca8d6811f329fcdd1b6c50e9749",
-  "homepage": "https://github.com/conventional-changelog/commitlint#readme",
+  "scripts": {
+    "deps": "dep-check",
+    "pkg": "pkg-check"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/commitlint.git"
+  },
   "keywords": [
     "conventional-changelog",
     "commitlint",
     "commitlint-config",
     "angular"
   ],
+  "author": "Mario Nebl <hello@herebecode.com>",
   "license": "MIT",
-  "name": "@commitlint/config-conventional",
-  "publishConfig": {
-    "access": "public"
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/commitlint/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/conventional-changelog/commitlint.git"
+  "homepage": "https://github.com/conventional-changelog/commitlint#readme",
+  "engines": {
+    "node": ">=v10"
   },
-  "scripts": {
-    "deps": "dep-check",
-    "pkg": "pkg-check"
+  "devDependencies": {
+    "@commitlint/lint": "^12.0.1",
+    "@commitlint/utils": "^12.0.1"
   },
-  "version": "12.0.0"
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.3.1"
+  },
+  "gitHead": "d829bf6260304ca8d6811f329fcdd1b6c50e9749"
 }
