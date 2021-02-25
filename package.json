@@ -1,5 +1,5 @@
 {
-  "name": "config-conventional",
+  "name": "@picq/config-conventional",
   "version": "12.0.1",
   "description": "Shareable commitlint config enforcing conventional commits",
   "files": [
